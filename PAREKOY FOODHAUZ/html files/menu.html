@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Payag ni Parekoy</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="menu.css">
+    </head>
+
+
+    <body>
+
+        <!-- NAVBAR -->
+        <nav class="navbar fixed-top">
+            <div class="container-fluid">
+
+                <!-- LOGO -->
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                    <img src="logo.png" class="logo">
+                    <span class="brand-text">Payag ni Parekoy</span>
+                </a>
+
+                <!-- HAMBURGER -->
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon"> ☰</label>
+
+                <!-- NAV LINKS -->
+                <div class="nav-links">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"> HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="menu.html"> MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="promo.html"> PROMO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"> ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"> CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- BUTTON -->
+                <a href="#" class="order-btn"> ORDER NOW</a>
+            </div>
+        </nav>
+
+        <!-- MENU -->
+        <section class="menu-section">
+
+            <div class="container">
+                <h1 class="menu-title">OUR MENU</h1>
+                <p class="menu-subtitle">
+                    Choose from our delicious best-selling meals!
+                </p>
+                <h2 class="section-title">BESTSELLERS</h2>
+                <div class="menu-wrapper">
+
+                    <!-- LEFT ARROW -->
+                    <button class="scroll-btn left-btn">&#10094;</button>
+                    
+                    <div class="menu-slider" id="slider1">
+
+                        <!-- CARD -->
+                        <div class="food-card">
+                            <img src="litson.png">
+                            <h3>LECHON BELLY</h3>
+                            
+                            <a href="#modal-lechon" class="menu-btn"> ORDER NOW</a>
+                        </div>
+                        <div class="food-card">
+                            <img src="matcha.png">
+                            <h3>MATCHA SHAKE</h3>
+                            <a href="#" class="menu-btn"> ORDER NOW</a>
+                        </div>
+                        <div class="food-card">
+                            <img src="chicken.png">
+                            <h3>CRISPY CHICKEN</h3>
+                            <a href="#" class="menu-btn"> ORDER NOW</a>
+                        </div>
+                        <div class="food-card">
+                            <img src="takoyaki.png">
+                            <h3>TAKOYAKI</h3>
+                            <a href="#" class="menu-btn"> ORDER NOW</a>
+                        </div>
+                    </div>
+                    
+                    <!-- RIGHT ARROW -->
+                    <button class="scroll-btn right-btn">&#10095;</button>
+                </div>
+                <h2 class="section-title">MILKSHAKES</h2>
+                <div class="menu-wrapper">
+
+                    <!-- LEFT ARROW -->
+                    <button class="scroll-btn left-btn">&#10094;</button>
+                    <div class="menu-slider" id="slider1">
+
+                        <!-- CARD -->
+                        <div class="food-card">
+                            <img src="shake.png">
+                            <h3>CHOCOLATE</h3>
+                            <a class="menu-btn"> ORDER NOW</a>
+                        </div>
+                        <div class="food-card">
+                            <img src="mango.png">
+                            <h3>MANGO</h3>
+                            <a href="#" class="menu-btn"> ORDER NOW</a>
+                        </div>
+                        <!-- CARD -->
+                        <div class="food-card">
+                            <img src="matcha.png">
+                            <h3>MATCHA</h3>
+                            <a href="#" class="menu-btn"> ORDER NOW</a>
+                        </div>
+                        <div class="food-card">
+                            <img src="red velvet.png">
+                            <h3>RED VELVET</h3>
+                            <a href="#" class="menu-btn"> ORDER NOW</a>
+                        </div>
+                    </div>
+                    <!-- RIGHT ARROW -->
+                    <button class="scroll-btn right-btn">&#10095;</button>
+                </div>
+
+
+                <h2 class="section-title">FOOD PACKAGES</h2>
+                <div class="menu-wrapper">
+                    <!-- LEFT ARROW -->
+                    <button class="scroll-btn left-btn">&#10094;</button>
+                    <div class="menu-slider" id="slider1">
+                        <!-- CARD -->
+                        <div class="food-card">
+                            <img src="litson.png">
+                            <h3>LECHON BELLY</h3>
+                            <a class="menu-btn"> ORDER NOW</a>
+                        </div>
+                        <div class="food-card">
+                            <img src="kinilaw.png">
+                            <h3>TUNA KINILAW</h3>
+                            <a href="#" class="menu-btn"> ORDER NOW</a>
+                        </div>
+                        <div class="food-card">
+                            <img src="Chicken caldereta.png">
+                            <h3>CHICKEN CALDERETA</h3>
+                            <a href="#" class="menu-btn"> ORDER NOW</a>
+                        </div>
+                        <div class="food-card">
+                            <img src="beef stake.png">
+                            <h3>BEEF STEAK</h3>
+                            <a href="#" class="menu-btn"> ORDER NOW</a>
+                        </div>
+                    </div>
+
+
+                    <!-- RIGHT ARROW -->
+                    <button class="scroll-btn right-btn">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- MODAL -->
+        <div id="modal-lechon" class="custom-modal">
+            <div class="modal-box">
+                <a class="close"> &times;</a>
+                <div class="check-icon">✓</div>
+                <h2>LECHON BELLY</h2>
+                <p class="summary-text">Your order summary</p>
+                <!-- ORDER DETAILS -->
+                <div class="order-summary">
+                    <div class="summary-row">
+                        <span>Price</span>
+                        <span>₱2,000</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Quantity</span>
+                        <span>1</span>
+                    </div>
+                    <hr>
+                    <div class="summary-total">
+                        <span>Total</span>
+                        <span>₱2,000</span>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-item">
+                        <p>📍Purok 1 Alejal</p>
+                    </div>
+                    <div class="feature-item">
+                        <p>Carmen</p>
+                    </div>
+                    <div class="feature-item">
+                        <p>Davao del Norte</p>
+                    </div>
+                </div>
+                <a href="#success-modal" class="confirm-btn"> Confirm Order</a>
+                <a href="#" class="cancel-btn"> Cancel</a>
+                <p class="safe-text">🔒 Your information is safe with us.</p>
+            </div>
+        </div>
+
+
+        <!-- SUCCESS MODAL -->
+        <div id="success-modal" class="custom-modal">
+            <div class="modal-box success-box">
+                <a href="#" class="close"> &times;</a>
+                <div class="check-icon">✓</div>
+                <h2>Thank You!</h2>
+                <p class="success-message">Your order has been placed successfully.</p>
+                <p class="success-message">
+                    Thank you for purchasing at Payag ni Parekoy!
+                </p>
+                <a href="#" class="confirm-btn"> Back to Menu</a>
+            </div>
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-col center">
+                    <h3>LOCATIONS</h3>
+                    <a href="contact.html" class="find-btn"> FIND US</a>
+                </div>
+                <div class="footer-col center">
+                    <h3>KEEP IN TOUCH</h3>
+                    <div class="social-icons">
+                        <span>f</span>
+                        <span>📷</span>
+                        <span>X</span>
+                        <span>💬</span>
+                    </div>
+                </div>
+                <div class="footer-col center">
+                    <a href="#menu.html" class="order-footer-btn"> ORDER NOW</a>
+                    <p class="app-text">DOWNLOAD OUR DELIVERY APP NOW!</p>
+                    <div class="apps">
+                        <img src="googleplay.png" alt="Google Play">
+                        <img src="appstore.png" alt="App Store">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- BOTTOM -->
+            <div class="footer-bottom">
+                <p>©2026 Payag ni Parekoy. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#"> PRIVACY NOTICE</a>
+                    <a href="#"> TERMS AND CONDITIONS</a>
+                    <a href="#"> SITEMAP</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
